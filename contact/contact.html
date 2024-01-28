@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yummy</title>
+    <link rel="icon" href="../logo.png">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="bg-dark">
+    <div class="loading fixed-top bottom-0 bg-black  justify-content-center align-items-center">
+        <i class="fa-solid fa-spinner fa-7x text-white fa-spin"></i>
+        </div>
+        <header class="home p-0 overflow-hidden position-relative" id="home">
+            <!-- <div class="container">
+              <div class="row-1 row">
+               
+              </div>
+            </div> -->
+              <div class="slider fixed-top z-3 ">
+                <ul class="p-5" id="links">
+                
+                  <li class="mt-4"><a  href="../search/search.html">Search</a></li>
+                  <li class="mt-4"><a href="../category/category.html">Categories</a></li>
+                  <li class="mt-4"><a href="../area/area.html">Area</a></li>
+                  <li class="mt-4"><a href="../ingrediants/ingrediants.html">Ingredients</a></li>
+                  <li class="mt-4"><a href="../contact/contact.html">Contact</a></li>
+                </ul>
+                <div class="openslider  bg-black vh-100 fixed-top vh-100 d-flex justify-content-center align-items-center my-auto">
+                  <div class="img  position-fixed top-0">
+                    <img src="../logo.png" class="w-100" alt="">
+            
+                  </div>
+                  <div >
+                    <i class="icon-l  text-white  fs-3 fa-solid fa-bars"></i>
+                  </div>
+                  <div>
+                    <i class="icon-x fs-3 text-white fa-solid fa-xmark"></i>
+                  </div>
+                  <div class="icons position-fixed bottom-0 d-flex flex-column fs-5 text-white">
+                    <i class="mb-2 fa-solid fa-blog"></i>
+                    <i class="mb-2 fa-solid fa-share-nodes"></i>
+                  </div>
+                </div>
+              </div> 
+            
+            
+            </header>
+        
+
+ 
+    <form onsubmit="return validateForm()">
+      <div class="container ">
+        <div class="row d-flex justify-content-around  align-items-center mt-5 vh-100">
+            <div class="col-md-4">
+                <input type="text" id="name" class="form-control mt-4" placeholder="Enter Your Name">
+                <p id="validName"></p>
+                <input type="text" id="email" class="form-control  mt-4" placeholder="Enter Your Email">
+                <input type="password" id="password" class="form-control  mt-4" placeholder="Enter Your password">
+                <div id="message"></div>
+             
+            </div>
+            <div class="col-md-4">
+                <input type="text" id="phone" class="form-control mt-4" placeholder="Enter Your Phone">
+                <input type="text" id="age" class="form-control mt-4" placeholder="Enter Your Age">
+                <input type="password" id="rePassword" class="form-control mt-4" placeholder="Repassword">
+              
+            </div>
+            
+            <div class="btn">
+              <button class="btn btn-outline-danger text-white  d-flex justify-content-center align-items-center mx-auto">Submit</button>
+      
+            </div>
+        </div>
+    </div>
+      
+     
+      
+    </form>
+    <script src="../js/jquery-3.7.1.min.js"></script>
+   
+  <script src="./contact.js"></script>  
+</body>
+</html>
